@@ -1,0 +1,25 @@
+programa
+{
+	
+	funcao inicio()
+	{
+	real saque, montante=1000,opcao, deposito
+		escreva("Bem vindo ao banco da praça")
+		escreva("se desejar sacar digite 1")
+		escreva("se desejar depositar digite 2")
+		leia(opcao)
+
+		se (opcao==1)
+		{
+			escreva("informe o valor do saque")
+			leia(saque)
+			escreva("o novo montante é de: ", montante-saque)
+		}
+		senao
+		{
+			escreva("informe o valor do deposito")
+			leia(deposito)
+			escreva("o novo montante é de: ", montante+deposito)
+		}
+	}
+}

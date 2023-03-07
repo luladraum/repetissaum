@@ -1,0 +1,15 @@
+programa
+{
+	
+	funcao inicio()
+	{
+	real horas_trabalhadas, salario_por_hora, acrescimo, salario_total
+	acrescimo=1.5
+		escreva("digite o número de horas trabalhadas no mês ")
+		leia(horas_trabalhadas)
+		escreva("digite o salário por hora ")
+		leia(salario_por_hora)
+		salario_total = horas_trabalhadas * salario_por_hora + ( horas_trabalhadas - 40 * 4 ) * salario_por_hora * acrescimo
+		escreva ("o seu salário total é: ", salario_total)
+		}
+}

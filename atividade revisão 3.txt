@@ -1,0 +1,19 @@
+programa
+{
+	
+	funcao inicio()
+	{
+	real peso1, peso2, peso3, nota1, nota2, nota3, media_final
+	peso1 = 2
+	peso2 = 3
+	peso3 = 5
+		escreva ("digite a pontuação da primeira prova: ")
+		leia(nota1)
+		escreva ("digite a pontuação da segunda prova: ")
+		leia(nota2)
+		escreva ("digite a pontuação da terceira prova: ")
+		leia(nota3)
+		media_final = (nota1 * peso1 + nota2 * peso2 + nota3 * peso3) / 10
+		escreva ("o valor da média ponderada é: ", media_final)
+	}
+}

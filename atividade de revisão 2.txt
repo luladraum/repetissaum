@@ -1,0 +1,19 @@
+programa
+{
+	
+	funcao inicio()
+	{
+	real carros_vendidos, valor_total, salario_fixo, comissao, bonus, salario_final
+	bonus=0.05
+		escreva ("digite o numero de carros vendidos por você ")
+		leia(carros_vendidos)
+		escreva("digite o valor total de suas vendas ")
+		leia(valor_total)
+		escreva("digite o seu salário fixo ")
+		leia(salario_fixo)
+		escreva("digite o valor da comissão ")
+		leia(comissao)
+		salario_final = salario_fixo + carros_vendidos * comissao + valor_total * bonus
+		escreva ("seu salario final é: ", salario_final)
+	}
+}

@@ -1,0 +1,12 @@
+programa
+ {
+
+  funcao inicio() 
+  {
+    inteiro num1, resultado
+    escreva("informe um valor: ")
+    leia (num1)
+    resultado = num1 * 2
+    escreva("o valor da multiplicação é "+ resultado)
+  }
+}

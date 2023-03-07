@@ -1,0 +1,13 @@
+programa
+{
+	
+	funcao inicio()
+	{
+	real valor_produto, desconto, valor_final
+	desconto=0.9
+		escreva("digite o valor inicial do produto: ")
+		leia(valor_produto)
+		valor_final = valor_produto * desconto
+		escreva ("o valor final do produto é: ", valor_final)
+	}
+}

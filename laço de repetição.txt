@@ -1,0 +1,110 @@
+1)
+programa
+{
+	inclua biblioteca Matematica
+	
+	funcao inicio()
+	{
+	real producao, defeito, a
+		escreva("informe o numero de preças produzidas ")
+		leia(producao)
+		escreva("informe o numero de peças defeituosas ")
+		leia(defeito)
+		defeito = Matematica.arredondar(defeito,5)
+		se(defeito/producao<0.10)
+		{
+			escreva("a maquina não precisa de manutenção")
+			}
+			senao {
+				escreva("a maquina precisa de manutenção")
+			}
+
+	}
+}
+
+2)
+programa
+{
+	
+	funcao inicio()
+	{
+	real saque, montante
+	montante=1000
+		escreva("informe o valor que deseja sacar ")
+		leia(saque)
+		se (saque<montante)
+		{
+			escreva("o valor de saque é valido ")
+		}
+		senao
+		{
+			escreva("seu saque não é valido ")
+		}
+	}
+}
+
+3)
+programa
+{
+	inclua biblioteca Matematica
+	
+	funcao inicio()
+	{
+	inteiro num1, num2, soma
+		escreva("inofrme o primeiro numero ")
+		leia(num1)
+		escreva("informe o segundo numero ")
+		leia(num2)
+		soma=num1+num2
+		se(soma>10)
+		{
+			escreva("a soma resultou em ", soma)
+		}
+		senao
+		{
+			
+		}
+	}
+}
+
+4)
+programa
+{
+	
+	funcao inicio()
+	{
+	inteiro num1
+		escreva("informe um numero inteiro ")
+		leia(num1)
+		se (num1%2 == 0)
+		{
+			escreva("o numero é par")
+		}
+		senao
+		{
+			escreva("o numero é impar")
+		}
+	}
+}
+
+5)
+programa
+{
+	
+	funcao inicio()
+	{
+	real salario, prestacao
+		escreva("informe o seu salario bruto ")
+		leia(salario)
+		escreva("informe o valor da prestacao ")
+		leia(prestacao)
+		se(prestacao/salario<0.30)
+		{
+			escreva("a prestação pode ser concedida")
+		}
+		senao
+		{
+			escreva("a prestação não pode ser concedida")
+		}
+	}
+}

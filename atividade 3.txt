@@ -1,0 +1,12 @@
+programa
+ {
+
+  funcao inicio() 
+  {
+    inteiro num1, resultado
+    escreva("informe uma temperatura em ºC: ")
+    leia (num1)
+    resultado = 9*(num1/5)+32
+    escreva("a temperatura em ºF é: "+ resultado)
+  }
+}

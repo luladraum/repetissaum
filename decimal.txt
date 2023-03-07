@@ -1,0 +1,12 @@
+programa
+{
+	inclua biblioteca Matematica
+	
+	funcao inicio()
+	{
+		real a
+		a=20.0/3
+		a=Matematica.arredondar(a,5)
+		escreva( a)
+	}
+}
